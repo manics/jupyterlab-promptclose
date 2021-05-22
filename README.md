@@ -1,4 +1,4 @@
-# jupyterlab_promptclose
+# jupyterlab-promptclose
 
 ![Github Actions Status](https://github.com/manics/jupyterlab-promptclose/workflows/Build/badge.svg)
 
@@ -15,7 +15,7 @@ Prompt when JupyterLab window is closed
 To install the extension, execute:
 
 ```bash
-pip install jupyterlab_promptclose
+pip install jupyterlab-promptclose
 ```
 
 ## Uninstall
@@ -23,7 +23,7 @@ pip install jupyterlab_promptclose
 To remove the extension, execute:
 
 ```bash
-pip uninstall jupyterlab_promptclose
+pip uninstall jupyterlab-promptclose
 ```
 
 
@@ -39,7 +39,7 @@ The `jlpm` command is JupyterLab's pinned version of
 
 ```bash
 # Clone the repo to your local environment
-# Change directory to the jupyterlab_promptclose directory
+# Change directory to the jupyterlab-promptclose directory
 # Install package in development mode
 pip install -e .
 # Link your development version of the extension with JupyterLab
@@ -68,7 +68,7 @@ jupyter lab build --minimize=False
 ### Development uninstall
 
 ```bash
-pip uninstall jupyterlab_promptclose
+pip uninstall jupyterlab-promptclose
 ```
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`

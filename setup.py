@@ -1,5 +1,5 @@
 """
-jupyterlab_promptclose setup
+jupyterlab-promptclose setup
 """
 import json
 from pathlib import Path
@@ -9,7 +9,7 @@ import setuptools
 HERE = Path(__file__).parent.resolve()
 
 # The name of the project
-name = "jupyterlab_promptclose"
+name = "jupyterlab-promptclose"
 
 lab_path = (HERE / name / "labextension")
 
