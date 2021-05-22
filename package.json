@@ -1,5 +1,5 @@
 {
-  "name": "jupyterlab-promptclose",
+  "name": "@manics/jupyterlab-promptclose",
   "version": "0.1.0",
   "description": "Prompt when JupyterLab window is closed",
   "keywords": [
