@@ -1,6 +1,6 @@
 # jupyterlab-promptclose
 
-![Github Actions Status](https://github.com/manics/jupyterlab-promptclose/workflows/Build/badge.svg)
+[![Build](https://github.com/manics/jupyterlab-promptclose/actions/workflows/build.yml/badge.svg)](https://github.com/manics/jupyterlab-promptclose/actions/workflows/build.yml)
 
 Prompt when JupyterLab window is closed.
 
