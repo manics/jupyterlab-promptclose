@@ -2,7 +2,9 @@
 
 ![Github Actions Status](https://github.com/manics/jupyterlab-promptclose/workflows/Build/badge.svg)
 
-Prompt when JupyterLab window is closed
+Prompt when JupyterLab window is closed.
+
+Do you find yourself using the `Ctrl-w` keyboard shortcut (delete the previous word in Bash) in a JupyterLab terminal and accidentally closing your browser window instead? Then install this extension and you should see a prompt before the window is closed.
 
 ## Requirements
 
