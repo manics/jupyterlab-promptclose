@@ -142,8 +142,8 @@ jobs:
         with:
           name: jsdist
           path: jsdist
-      - run: npm publish --dry-run ./jsdist/jupyterlab-promptclose-jlpmpack.tgz
-      - run: npm publish ./jsdist/jupyterlab-promptclose-jlpmpack.tgz
+      - run: npm publish --dry-run --access public ./jsdist/jupyterlab-promptclose-jlpmpack.tgz
+      - run: npm publish --access public ./jsdist/jupyterlab-promptclose-jlpmpack.tgz
         if: startsWith(github.ref, 'refs/tags')
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
