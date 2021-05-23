@@ -48,7 +48,7 @@ jobs:
       run: |
         set -eux
         jlpm
-        jlpm run eslint:check
+        jlpm run format:check
         python -m pip install .
 
         jupyter labextension list 2>&1 | grep -ie "@manics/jupyterlab-promptclose.*OK"
